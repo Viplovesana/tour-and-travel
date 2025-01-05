@@ -1,0 +1,222 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+#toppart{
+    width:90%;
+    height: 50px;
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: space-between; 
+    align-items: center;
+    background-color:white;
+    margin: auto;
+    /* border-radius: 50px; */
+    position: fixed;
+    top: 20px;
+    left: 5%;
+    background: transparent;
+    }
+    #toppart img{
+        width: 90px;
+        height: 80px;
+        border-radius: 50%;
+        
+    }
+    #toppart nav ul{
+        display: flex;
+        gap: 60px;
+        list-style: none;
+        
+
+    }
+
+    #toppart nav ul li a{
+        text-decoration:none ;
+        font-family:"jaro",sans-serif;
+        font-size:larger ;
+        color:black;
+        
+    }
+    #toppart nav ul li a:hover{
+        background-color: rgb(147, 217, 155);
+        border-radius: 20%;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        transition: 0.5s;
+    }
+    #toppart button{
+        padding: 10px;
+        /* border-top-right-radius: 20px;
+        border-bottom-left-radius: 20px        ; */
+        background-color: orange;
+    }
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(poster\ 6.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center;
+    color:black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+}
+.head{
+    font-size: 50px;
+}
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutus div{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    justify-content: center;
+    align-items: center;
+
+}
+.india:hover{
+    transform: scale(0.9);
+    transition:1s ;
+}
+.cards{
+    width: 100%;
+    height: 100vh;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background: linear-gradient(to bottom,rgb(156, 214, 208),white);
+    
+}
+.cards div{
+    height: 400px;
+    width: 400px;
+    
+}
+.cards div:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+.container{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    
+    
+}
+.container div{
+    height: 500px;
+    width: 600px;
+  
+}
+.ex{
+    font-size: 60px;
+    font-family:cursive;
+}
+.man:hover{
+    transform:scale(0.9);
+    transition: 1s;
+    
+}
+.icons{
+    font-size: 20px;
+    display: flex;
+    justify-content:center;
+     gap: 20px;
+}
+.parent{
+    height: 50vh;
+    width: 100%;
+    /* border: 1px,solid,black; */
+    /* background: linear-gradient(to top,rgb(156, 214, 208),white); */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.parent div{
+    width: 400px;
+    height: 400px;
+   
+
+}
+.parent div:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+
+.container2{
+    width: 100%;
+    height: 100vh;
+    /* border: 1px,solid,black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:30px
+}
+.container2 div{
+    height: 600px;
+    width: 600px;
+    /* border: 1px,solid,black; */
+}
+.cartoon:hover{
+    transform: scale(0.9);
+    transition: 1s;
+}
+.btn{
+    font-size: 30px;
+    padding: 10px;
+    /* border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px        ; */
+    background-color: orange;
+    border-radius: 10px;
+    
+
+}
+#marquee{
+    height: 15vh;
+    font-size: 30px;
+}
+#marquee img{
+    height: 15vh;
+    font-size: 30px;
+}
+.footer{
+    width: 100%;
+    height: 100vh;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:20px;
+}
+.footer div{
+    width: 300px;
+    height: 500px;
+    /* border: 1px,solid,black; */
+
+}
+.footer{
+    background-color: rgb(156, 214, 208);
+}
