@@ -59,7 +59,7 @@ nav ul li a.active,a:hover{
 #home{
     width: 100%;
     height: 100vh;
-    background-image: url(poster\ 6.jpg);
+    background-image: url(composter.jpg);
     background-repeat: no-repeat;
     background-size:cover ;
     background-position: center;
@@ -73,87 +73,58 @@ nav ul li a.active,a:hover{
 .head{
     font-size: 50px;
 }
-.aboutus{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
-
-}
-.aboutus div{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column ;
-    justify-content: center;
-    align-items: center;
-
-
-}
-
-.india img {
-    width:  ;
-}
-
-.india:hover{
-    transform: scale(0.9);
-    transition:1s ;
-}
-.cards{
+.para{
     width: 100%;
-    /* height: 100%; */
-     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    background: linear-gradient(to bottom,rgb(156, 214, 208),white);
-    
-}
-.cards div{
-    height: 400px;
-    width: 400px;
-    
-}
-.cards div:hover{
-    transform: scale(1.2);
-    transition: 1s;
-}
-.container{
-    width: 100%;
-    /* height: 80vh; */
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 20px;
-    
-    
+    flex-direction: column;
+    text-align: center;
+    margin-top: -15%;
 }
-.container div{
-    height: 500px;
-    width: 600px;
+.para h1{
+    font-size: 40px;
+}
+.container {
+    width: 100%;
+    /* height: 100vh; */
+    margin-top: -10%;
+  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    gap:20px;
+    margin-bottom: 100px;
   
 }
-.ex{
-    font-size: 60px;
-    font-family:cursive;
-}
-.man:hover{
-    transform:scale(0.9);
+.container div:hover{
+    transform:scale(0.8);
     transition: 1s;
+}
+.out{
+    margin-top: -5%;
+}
+.container div{
+    height: 400px;
+    width: 300px;
+    /* border: 1px,solid,black; */
+    background-color: aliceblue;
     
+ 
 }
-.man{
-    width: 200px;
+.more{
+    font-size: 30px;
+    margin-top: 15%;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: burlywood;
+ 
 }
-.man img{
-    width: 100%;
-}
-.icons{
-    font-size: 20px;
-    display: flex;
-    justify-content:center;
-     gap: 20px;
+.more:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
 }
 .parent{
     /* height: 50vh; */
@@ -165,10 +136,18 @@ nav ul li a.active,a:hover{
     justify-content: center;
     align-items: center;
     gap:20px;
+    background-color: rgb(238, 244, 237);
+  
+}
+.btn{
+    font-size: 30px;
+  margin-right: 50p%;
 }
 .parent div{
     width: 400px;
     height: 400px;
+ 
+   
    
 
 }
@@ -177,42 +156,72 @@ nav ul li a.active,a:hover{
     transition: 1s;
 }
 
-.container2{
+.blocks{
     width: 100%;
-    /* height: 100vh; */
-    /* border: 1px,solid,black; */
+    /* margin-top: -20; */
+
+    display:flex ;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* background-color: antiquewhite; */
+}
+.block2{
+    text-align: center;
+    /* margin-top: 20%; */
+}
+.compass{
+    
+}
+.btn2{
+    padding-left: 20px;
+    padding-right: 20px;
+   background-color: rgb(231, 146, 85);
+    font-size: 30px;
+    border-radius: 10px;
+}
+.blocks div{
+    width: 600px;
+    height: 600px;
+  
+  
+}
+.head{
+    color: red;
+}
+
+.container3{
+    width: 100%;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap:30px
-}
-.btn{
-    
-    text-decoration: none;
-}
-.button{
-    
-}
-.container2 div{
-    height: 600px;
-    width: 600px;
-    /* border: 1px,solid,black; */
-}
-.cartoon:hover{
-    transform: scale(0.9);
-    transition: 1s;
-}
-.btn{
-    font-size: 30px;
-    padding: 10px;
-    /* border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px        ; */
-    background-color: orange;
-    border-radius: 10px;
-    
+    gap: 10px;
+    margin-top: -5%;
 
 }
+.container3 div{
+    width: 150px;
+    height: 150px;
+    border: 1px,solid,black;
+    border-radius: 50%;
+ 
+}
+.man1{
+    background-image: url(man1.jpg);
+}
+.man2{
+    background-image: url(man2.jpg);
+}
+.man3{
+    background-image: url(man3.jpg);
+}
+.man4{
+    background-image: url(man4.jpg);
+}
+
 #marquee{
     height: 15vh;
     font-size: 30px;
@@ -237,28 +246,15 @@ nav ul li a.active,a:hover{
 .footer div{
     width: 300px;
     height: 500px;
-    background-color: rgb(170, 222, 208);
-   
+    /* background-color: rgb(235, 216, 199);
+    */
     border-radius: 10px;
     /* border: 1px,solid,black; */
 
 }
 .footer{
-    background-color: rgb(156, 214, 208);
+    background-color: rgb(238, 225, 210);
 }
-
-.india{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-}
-.india p{
-    margin-left: 100px;
-    margin-right: 100px;
-}
-
 #click{
     display: none;
 }
@@ -303,6 +299,10 @@ width: 50%;
         width: 90%;
         height: auto;
     }
+    .container div:hover{
+        transform:scale(0.8);
+        transition: 1s;
+    }
 
 
 }
@@ -311,4 +311,4 @@ width: 50%;
         font-size: 30px;
       }
 }
-    
+
