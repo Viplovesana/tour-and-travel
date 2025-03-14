@@ -92,7 +92,7 @@ nav ul li a.active,a:hover{
 }
 
 .india img {
-    width:  ;
+   
 }
 
 .india:hover{
@@ -101,7 +101,7 @@ nav ul li a.active,a:hover{
 }
 .cards{
     width: 100%;
-    /* height: 100%; */
+    height: 100vh;
      display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -121,7 +121,7 @@ nav ul li a.active,a:hover{
 }
 .container{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -307,9 +307,4 @@ width: 50%;
 
 
 }
-@media screen (max-width:460){
-    label.logo{
-        font-size: 30px;
-      }
-}
-    
+  
